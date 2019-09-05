@@ -17,16 +17,21 @@ body {
 
 .holi {
   display: flex;
-  justify-content: end;
-}
+  justify-content: flex-end;}
+
+  .linea{
+    color: bisque;
+    height: 10em;
+  }
 
 .btn1 {
   border: 3px;
   padding: 10px;
-  margin: 1px;
-  color: white;
-  background: purple;
-  border-radius: 30%;
+  margin: 1em;  
+  border-radius: 0.4em;
+
+  color:black;
+  background: rgb(228, 171, 228);
   
 }
 
@@ -35,31 +40,62 @@ button:hover{
 }
 
 .btn2 {
-
   border: 3px;
   padding: 10px;
-  color: white;
-  background: blue;
-  border-radius: 30%;
+  margin: 1em;  
+  border-radius: 0.4em;
+  color: rgb(0, 0, 0);
+  background: rgb(200, 126, 230);
 }
 .btn3 {
 
   border: 3px;
   padding: 10px;
+  margin: 1em;  
+  border-radius: 0.4em;
   color: black;
-  background: pink;
-  border-radius: 30%;
+  background: rgb(237, 118, 248);
+}
+
+
+.btn4 {
+
+  border: 3px;
+  padding: 10px;
+  margin: 1em;  
+  border-radius: 0.4em;
+  color: black;
+  background: rgb(238, 153, 255);
+}
+
+.btn5 {
+
+  border: 3px;
+  padding: 10px;
+  margin: 1em;  
+  border-radius: 0.4em;
+  color: black;
+  background: rgb(233, 116, 227);
 }
 
 main {
-  width: 50%;
-  height: auto;
+
+width: auto;  height: auto;
 
   display: flex;
   flex-direction: column;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  
+}
+
+.KillMe{
+  text-align: center;
+ justify-content: center;
+ background: white;
+ margin: 2em;
+ opacity: 0.4;
 }
 
 main .logos {
@@ -83,6 +119,7 @@ main .logos {
 
 footer {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
 }
