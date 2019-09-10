@@ -1,0 +1,27 @@
+
+  
+  .btn4 {
+  
+    border: 3px;
+    padding: 10px;
+    margin: 1em;  
+    border-radius: 0.4em;
+    color: black;
+    background: $rosa;
+  }
+  
+  .btn5 {
+  padding: pad();
+    border: 3px;
+    margin: 1em;  
+    border-radius: 0.4em;
+    color: black;
+    background: $morado;
+  }
+  
+  footer {
+    width: 100%;
+      margin-top: 5em;
+      display: flex;
+      justify-content: space-between;
+  }

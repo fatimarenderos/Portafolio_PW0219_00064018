@@ -1,0 +1,43 @@
+.holi {
+    display: flex;
+    justify-content: flex-end;}
+  
+    .linea{
+      color:  $mostaza;
+      height: 10em;
+    }
+  
+  .btn1 {
+    border: 3px;
+    padding: 10px;
+    margin: 1em;  
+    border-radius: 0.4em;
+  
+    color:$negor;
+    background: $piel;
+    
+  }
+  
+  button:hover{
+    opacity: 0.7;
+  }
+  
+  .btn2 {
+    border: 3px;
+    padding: 10px;
+    margin: 1em;  
+    border-radius: 0.4em;
+    color: $negor;
+    background: $rosa;
+  }
+  .btn3 {
+  
+    border: 3px;
+    padding: 10px;
+    margin: 1em;  
+    border-radius: 0.4em;
+    color: $negor;
+    background:  $morado;
+  }
+  
+  

@@ -1,0 +1,40 @@
+main {
+  
+    width: auto;  height: auto;
+    
+      display: flex;
+      flex-direction: column;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    .KillMe{
+    text-align: center;
+     justify-content: center;
+     background:  $blanco;
+     margin: 2em;
+     opacity: 0.4;
+     width: 50%;
+     height: auto;
+    }
+    
+    main .logos {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    
+    .logos > img {
+      object-fit: cover;
+      width: 5em;
+      height: 5em;
+      margin: 0.5em;
+      background:  $blanco;
+      border: 1px solid black;
+      border-radius: 100%;
+      opacity: 0.7;
+    }
