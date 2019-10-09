@@ -1,0 +1,55 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vh);
+}
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+h1{
+    background-color: aquamarine;
+    color: red;
+    font-size: 10em;
+    height: 2em;
+    
+}
+
+.primerContainer{
+    display: flex;
+}
+p{
+    font-size: 1.5em;
+    margin-top: 3em;
+    color: aliceblue;
+    margin-bottom: 0.4em;
+}
+hr{
+    color: aliceblue;
+    width:60%;
+    margin-left: 19%;
+}
+.Foto{
+    width: 60em;
+    height: 60em;
+    background-color: black;
+}
+.Opciones{
+width: 100%;
+background-color: brown;
+}
+img{
+width: 22em;
+height: 20em;
+text-align: center;
+margin-top: 3em;
+border-radius: 200%
+
+}
+
+footer{
+    font-size: 2em;
+    color: blue;
+}
